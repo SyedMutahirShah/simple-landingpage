@@ -1,0 +1,176 @@
+*{ 
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;}
+body{
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBCgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAADBAACBQEGB//EAC0QAAICAQQCAgEEAQQDAAAAAAABAhEDBBIhMUFREyJhFDJxkUIFUqGxI2LB/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDAAQFBv/EACARAAICAwEAAwEBAAAAAAAAAAABAhEDEiExEyJBUTL/2gAMAwEAAhEDEQA/APnOLSt/u4H3pIbKothXrkZbjHarPsEewkAjgjCADNC3ceP4GszltXABxdoIWIZMU5S5oBlxuLryaubHwpR78lPgxyqUkAVqzLhB3yimWI9nioO49ClW2xZJUTcfwBtotFfgu1yExwtiqIqgLyx+SQxKnwhuWNJclF9X1wH4+h+NWUx41XJaUUlwH4caS4ByXKHUUkPSSF5MH2EyLllIx5Iy9Iv0aw41KFvwRxhVFIyajSZRse+FuJHXBLySONN0dSug0MT3R/k2tgUbBSwy/wBpScNvDXJp5obU3/kuhKdSlJy7M4hlFClXdgnHgPKk3QOXRBxRzSQGapAoykp8N/2GkyijzZzyj0jJO+FpSyyVPJJr02VbokuAUm6fJOX1BKVHZMC3ulwccn7LY19iTezok3bCRxN98HJ42g24pKVodxVFHGNCtEOvs7tObUie3wTjs/ci88n+0z9JPcNSybD6BHt3wIs3r9xe1LvsQnl3crh+yv6qUVUpchBZpJUrYHLkjFN+hWGr3LZ1+fYPNulbfRrA2U1GTc2LvJxR2YKuRJOhW2Exrdz2NabC3zYDDH/yDeJfdhiNFf0u8PDadpIRnzf4G9RvX8AMWJyfIyA0cwy4oPLT7o3dWMaXR3kTHvi20qvkIyizJ/Qtxu7Kx0nZvLB9f2nMemTlyqNqHUw/0cudvoBLDuiowjun1SPR5tMknXngp/p+ijHPJy7iv+wS4gOBlYv9KzbVKbjH8MJPC8KW6PPiujfyQ7XrgztalGD3dCRkw1QhkzY5Q+1RYtqfj28O3QDUScgUJblQz9oRy7QN9gMr+zHMkdqsUl9pM58i/DnyL8AnfsvyFUOS+wh8bJaNic5ApjGaPLAyIzTIzTsGkWTJBFZEfBK4F3Apz3HLLbTNuSoFtlV0cLOJWhGmjG9p57Q8s24ShP6hFI9qE+HqqXKGPmlHgJGE8vb48Cy5aGsT2IqnYyCS0qUU4y5XZ3amljkr/JSWpck4jmj2zhbXMemzDC/6KVVGPD8nf0Kirl2ay6RTLSi2Cw6mOsShlW3scjLH+1eFyL6icVmX45KSzxUm/YfQeFs7jf178BsC3QS/sWjWaW1dh8anj75a4CNY3jjtdjmN2rEscpTpyVfg0MMN1GCmEgFePhHIQ2yYzFWkOh0LPH9QeN/FkuuHwzQlFKPIs4xb6FkZlckoVcXwjJ/1HMnDb5GtXFJ8Gfq41FMVJIUzZYm5Ny6A/Bul9fA7ki8jjtXI3HFGEP28mYjimY+TDPa7E3GuDU1ilvXgz8kZWyWREMkV6DjOK4Zac+Cqx7u+PydeL07JfYktqAzV8gZr7DLjRXJi44IyiyUoNi0gdF5unRVs55UQbKV9giRyMAm1LyKo0ZIpJA6Lu26JtA+gaHYP6nVMFv29M4nfTOlTOrahzHNjUG30I4FJ0aWPFkcFSO7E2zpxttF8cFiTm+X6Y3p9TB1GXDfihTMnGKt8rwLOb3IoyqdHoITht4bE9VqttpSt+qOaOpQ+0n/YeeiwTX+Sl4bZNySDsjMl9vuwUnF9BdXeKXxtU10/DF4Rb5HUrXBLGcT2cjEZuVJJgcKdqM00vyjQhp/jhujSXoIQ2mhG05Glja8GRHU7JVJJD+ny71wMikR7xwcjJJ9lYy4o44XymEoMOVrh2AnLkHclxZFCTXfIrVgA6iLnylYnqYfVKuzbhC49Vx5E9ThcrpX/AAHUFGTCHxvpBrtO+f4LZcTTSa4OZF8cfrzfoFCUZ2fDLJOX4FZ6WXZt4cSmufILPp5xl/6+DNGcbMOWNx4oqkPajJj+RxpccWKSjytvL9CNIm0kVeK+Sk4behuGHJTezx7BvH7A4IGpk6jF2wKiPalcyFnE8+cEpHBOH2JRGcKTuxWK3Rxv7HdxyMHKRb4xEmIrZVsvifIvuYSMuRYzTZlLpqaVq1/JsrJF4lXFGBp5DjyS20mepimtT0cUvqH1mdSpLx5EXk+xzLJ+xdTqQk8lMSeTpp4dU4Lhjf650k2Y8MioawJTf3N/odPZBNXN5XGT7RMCe5PwHhptz+zpLwGXxx4SSdFoRaKKNFsTV3wN/vX1fBlxzJT2tcGjiyrakmqKIdEenu2xrSQk1S4o7GNpfkcw49sV78jDxQaEXtSq2vJauCypLhlZSXsw4GS+weCTaANOT4DYk1y+jGGVC1SI8HDbQbBXZfLVUg2Yx9RgTlwK58SSSNTNGlbEcvl1YAAMcUkqOZmtr3OmWb8pV+AGV7rsDFswc+OTyNv2MabGlC5x5fTGM0salTXIXFBSr0xSaXSuB3FqlwJa1pcJUzSlGMeFwZevknL6u6M/BnxGZmW4C4jjgmVeJHLLHfTklCxB2SMb7GsmJJW+ysUl4IPH3pDSmUxw5CbEWikQoopFFFGSEx98g0g0Is83F04khvCmGc2uwGFh0k077PRxp0dsXzgCcrKVckHeMkcYHBsVxbZMcR7BFpJpdC8IGhiSWP8AJ04o0dWKIVZbTFcs3uKubTdHJO0VZSTOQW6XZraHTxTUuW6MnFwzW0+SoLaFGibGKk1fSDSmvHQjiyfXsI25LsYqhlZLXDKuVsXhGVEtxkawjKkGhLmmxdyio22UWWN89hCaeHLHp+wspp9GEtRty1dJmhiyXSuzGsakt0RTLjXNDuNWDyY0+jGMx47dJFMuHbF8cmisS78gM6TTXkwrR53PhlLLfixjD9dqGp4ZPoHPE4RtrlCCUL5F/wCRq7bXQnl00m25KrNCEVLJFvpc2XyODdNAYHRjrTtctcC7W3s1dc38b2qqMXJNiyEk0gWokUhFeWck23yWSOVu5HK+uys5UnQH5ZBZIptROV2Tld8EUwuOVATqZ50J0zmTo0cLTGopCGllY3GVHqYZ8O3FK0G2WdhCnZWMrRZTVHSmmX4X+qdv+gks620lQDcmvyVb8GuhtqCXZba5dAk/YWMkOnYU7OpbXTGseXZVdC66t8sdwbJKmqGKJB8Woulz/Q9hlzz5M6WSGCS5QbHqoXus1hTNVc90K6mVXQOOqW+rJld2/YQ2DhqVX2f9lcmpcl9aRWWKG1OSFlBLI4/9msFhY7pZE74/+mrgyU4uL8cmfhSvakO4YqJjJmthzvacnkbYosqReORSXkcoXlN1wClJOfPoKpcVQtkv5b8AYGR06a6OT5i1RaKV8f8AJ2Sq77AAzZRak6XkBlytS5Q9mxvw6MycZPI79itE3EtnqUXfkzdRhUVdGvDTJq5vgW1WP48bf7qFa4K4cMLLGpuiRD7Lbb8lvhTXDIqHTn+NisvILkNkVNpgbIz9JS9M8hZqu0VPGao5AuGe2V+ByOWLXkSxLc6GseOjswuTRXHsFU/QRNg0qO3R2RbOhNhuS0QUZWX3KisZWUTRdki+Sm84pD7B2HMfPAfG6kua/gQhk2l1mvhPsopIqp8GdTNSlwrAxnKPXAbSRU9zl4GY4oPo1jJWU0mdLicW379Dfz8bv8WLZoRwu/Xg7hmtnPnx6HQ4bLmW27/gW+ffk/LdIrln2qQLFJKab9mAzVx1CSbu/wABFmk5laumi0IeegEndhouV8saxyVIRjkTlQxB30x0yyHIyTOyinyUwxdLlBZKvIRgE4pOzkXyTP8AstA8d+QGO5VvdC/6dbroYm0pKwebK10ZhtHJQuNR/wCTO1cH8Uk0aEMkWrF9TLfFpLsUEqaMKWOUe0Vul2PTw7V9m2J6nH8avwJLhJ8QnqUqtCtjGR2/wU2HJJWzimrfBacVLsWZeWRsGeVlkn4csnbDafuxpTdCWN0xhSLYZUh4SoLuO7gLmurObvBdZBtwu/0WxycmAXYfH9WNGTbGi22EadHYXZaNMLCKs6FFl1Eo4M4vq0MyigOSFrgrq10ZxoLDLsTSfZfHnknafQg24lflYvy0b5aNTUaj5Xf9lY5NqXozllYRZXVBWYKzDbnb7OppeReL+pxSdj7j/Ib2DLWOK3K6CZMj2d17MfFkfvkJPPPq7VD2U4O4s6b76HMGZSV+jAU2nxwjQ0mSpN3aYbCmb2CfCDuViuNr476ousqQ6ZQNt3KizgoromKSaTCyVoIGJZlaaXDEctwdSH8z2y5F80FkqwC9FsU/q+EWhUuwc8coy46A/L97ppegGCaiK2dGfqIb8XRrRXyw+yF9RjVVQKsD6jz8sTTObH6HdZFQ5oU+RkJJJnO4pGIVIQ+fkeYEgFiQh0Q8HiVmjsOiEGXpv0ug3o6QvArELB8BYshDqidERjwirRCHT+F34LZkLshDjy+nJk9OosQgqMvBnH+wi/cQh1Lwv+BL5C4eW79EIOUQP/KvyammxRWFTS5IQKGiaDk/jTDKTRCDoqHxN0i08klxZCDgA5G5NWSS4IQxgKdgM0YrqKOkFZmMadLYD1EV6IQIrMT/AFRUZpCHLl9Oefp//9k=);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    height: 90%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.6); /* Light black color with transparency */
+}
+@media (max-width: 600px) {
+    .container{
+        width: 90%;
+        margin-left: 3px;
+    }
+  
+
+}
+
+.imgg img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain; /* Ensures the full image is visible within the box */
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  /* Allow items to wrap to the next line if needed */
+    width: 90%;  /* Ensure the nav container is 90% of the parent container */
+    margin: 0 auto;  /* Center the nav within its parent */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    white-space: nowrap;  /* Prevent text from wrapping inside anchor */
+}
+
+/* Media query for screen sizes between 350px and 550px */
+@media (max-width: 550px) {
+    nav {
+        width: 100%; /* Make sure nav takes full width on smaller screens */
+    }
+
+    nav a {
+        font-size: 16px;  /* Adjust font size */
+        padding: 8px;     /* Adjust padding */
+        margin: 5px;      /* Adjust margin */
+    }
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Thickness of the underline */
+    background-color: orange; /* Color of the underline */
+    transition: width 0.3s ease; /* Smooth transition for the underline */
+}
+
+nav a:hover::before {
+    width: 100%; /* The underline will expand to 100% width on hover */
+}
+.text{
+    max-width: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.text h1{
+    font-size: 50px;
+    padding-left: 12px;
+    border-left: 5px solid orange;
+}
+@media (max-width: 550px) {
+    .text {
+        margin-left: 30px;  /* Thoda left ki taraf move karne ke liye margin ko kam kiya */
+    }
+
+    .text h1 {
+        font-size: 30px;  /* Font size ko thoda chhota kiya */
+        padding-left: 8px;  /* Padding ko bhi thoda kam kiya */
+        border-left-width: 3px;  /* Border width ko thoda kam kiya */
+    }
+}
+
+/* Styling the button */
+.beautiful-button {
+    background-color: #d44f1a; /* Green background color */
+    border: none; /* No border */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding inside the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: flex;
+    margin-left: 156px; /* Align it inline */
+    font-size: 16px; /* Text size */
+    margin-top: 12px;
+    cursor: pointer; /* Cursor pointer on hover */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(123, 175, 39, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.beautiful-button:hover {
+    background-color: #707c71; /* Slightly darker green on hover */
+    transform: translateY(-3px); /* Slight upward movement */
+    box-shadow: 0 6px 12px rgba(80, 18, 18, 0.3); /* Enhanced shadow on hover */
+}
+
+/* Active button (when clicked) */
+.beautiful-button:active {
+    transform: translateY(1px); /* Slight downward movement when clicked */
+    box-shadow: 0 2px 4px rgba(94, 28, 28, 0.2); /* Lighter shadow on click */
+}
+@media(max-width:550px){
+    .beautiful-button{
+        margin:12px auto;
+      }
+}
+/* General icon styles */
+i {
+    gap: 5px;
+    font-size: 30px; /* Increase icon size */
+    margin-top: 22px; /* Space between icons */
+    padding: 10px; /* Add space inside the icon */
+    border-radius: 50%; /* Make the background circular */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    display: inline-block;
+}
+
+/* Facebook icon */
+.ri-facebook-line {
+    color: white; /* Text color */
+    background-color: #3b5998; /* Facebook blue background */
+}
+
+/* Twitter icon */
+.ri-twitter-line {
+    color: white; /* Text color */
+    background-color: #1DA1F2; /* Twitter blue background */
+}
+
+/* WhatsApp icon */
+.ri-whatsapp-line {
+    color: white; /* Text color */
+    background-color: #25D366; /* WhatsApp green background */
+}
+
+/* Hover effect for all icons */
+i:hover {
+    transform: scale(1.1); /* Slightly increase size on hover */
+    color: #000000; /* Change color to black on hover */
+    background-color: #ffffff; /* Change background to white on hover */
+}
