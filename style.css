@@ -79,6 +79,70 @@ nav a::before {
 nav a:hover::before {
     width: 100%; /* The underline will expand to 100% width on hover */
 }
+
+.imgg img {
+    height: 40px;
+}
+
+
+        /* Hide menu button by default */
+        .menu-toggle {
+            display: none;
+        }
+
+        #menu-toggle {
+            display: none;
+        }
+
+        /* Dropdown for small screens */
+        @media (max-width: 400px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .menu {
+                display: none;
+                flex-direction: column;
+                background-color: #555;
+                width: 100%;
+                text-align: center;
+            }
+
+            .menu a {
+                display: block;
+                padding: 10px;
+                border-top: 1px solid white;
+            }
+
+            .menu-toggle {
+                display: block; /* Show menu button only on small screens */
+                background-color: #666;
+                color: white;
+                padding: 10px;
+                cursor: pointer;
+                width: 100%;
+                text-align: center;
+            }
+
+            /* Show dropdown when checkbox is checked */
+            #menu-toggle:checked + .menu {
+                display: flex;
+            }
+
+            /* Hide normal links on small screens */
+            nav a {
+                display: none;
+            }
+
+            /* Show links inside menu */
+            .menu a {
+                display: block;
+            }
+        }
+
+
+
 .text{
     max-width: 450px;
     margin-left: 100px;
@@ -139,6 +203,7 @@ nav a:hover::before {
         margin:12px auto;
       }
 }
+
 /* General icon styles */
 i {
     gap: 5px;
